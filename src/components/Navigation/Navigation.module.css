@@ -1,0 +1,44 @@
+.logo {
+    color: #0fb8f5;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.item {
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 150ms linear;
+}
+
+.item:hover {
+    color: #0fb8f5;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 150ms linear;
+    color: #0fb8f5;
+    border: 2px solid #0fb8f5;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.button:hover {
+    transition: all 150ms linear;
+    color: #fff;
+    background-color: #0fb8f5;
+}

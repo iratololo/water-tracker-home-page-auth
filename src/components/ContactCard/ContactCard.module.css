@@ -1,0 +1,28 @@
+.card {
+    padding-top: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 150ms linear;
+    color: #0fb8f5;
+    border: 2px solid #0fb8f5;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.button:hover {
+    transition: all 150ms linear;
+    color: #fff;
+    background-color: #0fb8f5;
+}

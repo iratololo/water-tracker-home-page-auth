@@ -1,0 +1,25 @@
+.header {
+    min-height: 60px;
+    padding: 20px 0;
+    border-bottom: 2px solid #c2c8ce;
+
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    color: #0fb8f5;
+    font-weight: 700;
+    font-size: 30px;
+
+}

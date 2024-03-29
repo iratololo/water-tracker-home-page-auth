@@ -1,0 +1,19 @@
+.plug {
+    padding: 130px 100px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.quote {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.author {
+font-size: 18px;
+}
+
+.blue {
+    font-weight: 500;
+    color: #0fb8f5;
+}

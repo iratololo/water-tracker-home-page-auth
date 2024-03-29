@@ -1,0 +1,62 @@
+.logout{
+    background-color: transparent;
+    border: none;
+    transition: all 150ms linear;
+}
+
+.logout[data-active] .icon{
+    color: #0fb8f5;
+}
+
+.logout:hover .icon {
+    color: #0fb8f5;
+}
+
+.icon {
+    font-size: 35px;
+    color: #636d74;
+    transition: all 150ms linear;
+}
+
+.list {
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.title {
+    color: #0fb8f5;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.email {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.out {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 150ms linear;
+    border: 2px solid #0fb8f5;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.out:hover {
+    transition: all 150ms linear;
+    color: #fff;
+    background-color: #0fb8f5;
+}
+

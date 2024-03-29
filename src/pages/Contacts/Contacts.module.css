@@ -1,0 +1,41 @@
+.page {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 1fr;
+    min-height: 100vh;
+}
+
+.scrolltop {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.scrolltop:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.column {
+    padding: 30px 15px 30px 0;
+    min-height: 100%;
+}
+
+.column:not(:last-child) {
+    border-right: 2px solid #c2c8ce;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    color: #636d74;
+    font-size: 40px;
+    transition: all 150ms linear;
+}
+
+.icon:hover {
+    color: #0fb8f5;
+}
